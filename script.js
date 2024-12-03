@@ -2,6 +2,7 @@ selectMenu = document.querySelectorAll("select"),
 content = document.querySelector(".content"),
 setAlarmBtn = document.querySelector("#setAlarm");
 
+
 let alarmTime; isAlarmSet = false,
 ringtone = new Audio("./files/fantasy.mp3")
 
@@ -83,3 +84,7 @@ function setAlarm(){
 
 
 setAlarmBtn.addEventListener("click", setAlarm)
+
+
+
+

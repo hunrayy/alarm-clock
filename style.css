@@ -20,6 +20,7 @@ body{
     border-radius: 10px;
     flex-direction: column;
     padding: 30px 30px 38px;
+    margin-top: 50px;
 }
 .wrapper img{
     max-width: 103px;
@@ -69,6 +70,18 @@ body{
 }
 select{
     cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+a:hover{
+    color: rgb(228, 228, 228);
+    transform: translateY(-5px);
 }
 
 
