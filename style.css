@@ -4,11 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body, .wrapper, .content{
+/* body, .wrapper, .content{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 body{
     /* min-width: 100vh; */
     background-color: #4a98f7;
