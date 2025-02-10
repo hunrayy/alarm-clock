@@ -89,3 +89,6 @@ setAlarmBtn.addEventListener("click", setAlarm)
 
 
 
+function sayHello(){
+    console.log('hello')
+}
