@@ -5,9 +5,7 @@ setAlarmBtn = document.querySelector("#setAlarm");
 
 let alarmTime; isAlarmSet = false,
 ringtone = new Audio("./files/fantasy.mp3")
-function sayHello(){
-    console.log('hello');
-}
+
 
 for ( let i = 12; i > 0; i--) {
     i = i < 10 ? "0" + i : i;
